@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | DevShop</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<input type="checkbox" id="sidebar-toggle" style="display:none;">
+
+
+<div class="sidebar">
+  <a href="admin.html">Admin</a>
+  <a href="index.html">Home</a>
+  <a href="products.html" class="active">Products</a>
+  <a href="about.html">About Us</a>
+  <a href="cart.html">Cart</a>
+  <a href="logout.html">Logout</a>
+</div>
+
+
+<div class="content">
+
+  
+  <nav class="top-navbar">
+    <div class="nav-left">
+      <label for="sidebar-toggle" class="menu-icon">☰</label>
+      <h3>DevShop</h3>
+    </div>
+    <div class="nav-right">
+      <form class="d-flex" role="search">
+        <input class="form-control" type="search" placeholder="Search products...">
+        <button class="btn btn-primary ms-1" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  
+ 
+<section class="container py-5">
+  <h2 class="text-center mb-4">Our Products</h2>
+
+  <div class="row g-4">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/headset.jpg" class="card-img-top mb-3" alt="Wireless Headset">
+        <h5>Wireless Headset</h5>
+        <p>Rs. 4500</p>
+        <a href="headset.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/watch.jpg" class="card-img-top mb-3" alt="Smart Watch">
+        <h5>Smart Watch</h5>
+        <p>Rs. 6200</p>
+        <a href="watch.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/speaker.jpg" class="card-img-top mb-3" alt="Bluetooth Speaker">
+        <h5>Bluetooth Speaker</h5>
+        <p>Rs. 3800</p>
+        <a href="speaker.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/powerbank.jpg" class="card-img-top mb-3" alt="Power Bank">
+        <h5>Power Bank</h5>
+        <p>Rs. 2900</p>
+        <a href="powerbank.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/keyboard.jpg" class="card-img-top mb-3" alt="Keyboard">
+        <h5>Keyboard</h5>
+        <p>Rs. 5500</p>
+        <a href="keyboard.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/mouse.jpg" class="card-img-top mb-3" alt="Wireless Mouse">
+        <h5>Wireless Mouse</h5>
+        <p>Rs. 2200</p>
+        <a href="mouse.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/cpu.jpg" class="card-img-top mb-4" alt="CPU">
+        <h5>CPU</h5>
+        <p>Rs. 35000</p>
+        <a href="cpu.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card p-3 text-center">
+        <img src="images/printer.jpg" class="card-img-top mb-3" alt="Printer">
+        <h5>Printer</h5>
+        <p>Rs. 18000</p>
+        <a href="printer.html" class="btn btn-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="custom-footer text-white pt-5 pb-3 mt-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- About -->
+        <div class="col-md-4 mb-3">
+          <h5>About DevShop</h5>
+          <p>DevShop brings you the best quality gadgets with eco-friendly experience. Shop smart, live better!</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="products.html" class="text-white text-decoration-none">Products</a></li>
+            <li><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+            <li><a href="cart.html" class="text-white text-decoration-none">Cart</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-4 mb-3">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+
+      </div>
+
+      <hr class="bg-white">
+      <p class="text-center mb-0">© 2026 DevShop. All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
