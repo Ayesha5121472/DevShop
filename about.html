@@ -13,7 +13,7 @@
 <body>
 
 <!-- Sidebar Toggle -->
-<input type="checkbox" id="sidebar-toggle" style="display:none;">
+<input type="checkbox" id="sidebar-toggle" hidden>
 
 <!-- Sidebar -->
 <div class="sidebar">
@@ -28,7 +28,7 @@
 <!-- Main Content -->
 <div class="content">
 
-  <!-- Top Navbar -->
+  <!-- Navbar -->
   <nav class="top-navbar">
     <div class="nav-left">
       <label for="sidebar-toggle" class="menu-icon">☰</label>
@@ -42,6 +42,19 @@
     </div>
   </nav>
 
+  <!-- Hero Banner -->
+  <section class="about-hero text-center py-5" style="background-color: white;">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-dark">Welcome to DevShop</h1>
+      <p class="lead text-dark">
+        Your one-stop shop for premium gadgets & eco-friendly tech.
+      </p>
+    </div>
+</section>
+
+
+
+
   <!-- About Section -->
   <section class="about py-5">
     <div class="container">
@@ -50,7 +63,6 @@
         At DevShop, we are committed to providing quality gadgets that enhance your life.  
         Our mission is to bring technology closer to everyone while maintaining eco-friendly practices.
       </p>
-
       <div class="row text-center">
         <div class="col-md-4 mb-4">
           <h4>Our Mission</h4>
@@ -68,8 +80,33 @@
     </div>
   </section>
 
+  <!-- Milestones / Achievements -->
+  <section class="milestones py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Achievements</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <h3>10K+</h3>
+          <p>Happy Customers</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>500+</h3>
+          <p>Products Sold</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>50+</h3>
+          <p>Team Members</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h3>5</h3>
+          <p>Years of Excellence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Team Section -->
-  <section class="team py-5 bg-light">
+  <section class="team py-5">
     <div class="container">
       <h2 class="text-center mb-4">Meet Our Team</h2>
       <div class="row text-center">
@@ -79,7 +116,7 @@
           <p>Founder & CEO</p>
         </div>
         <div class="col-md-3 mb-4">
-          <img src="images/team2.jpg" class="img-fluid rounded-circle mb-1" alt="Team Member">
+          <img src="images/team2.jpg" class="img-fluid rounded-circle mb-2" alt="Team Member">
           <h5>Maryam Masood</h5>
           <p>CTO</p>
         </div>
@@ -97,14 +134,90 @@
     </div>
   </section>
 
+  <!-- Testimonials -->
+  <section class="testimonials py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Customers Say</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card p-3 shadow-sm">
+            <p>"Amazing products! Excellent service and fast delivery."</p>
+            <h6 class="fw-bold mb-0">Sara Ali</h6>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card p-3 shadow-sm">
+            <p>"High quality gadgets at affordable prices. Highly recommend!"</p>
+            <h6 class="fw-bold mb-0">Ahmed Khan</h6>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card p-3 shadow-sm">
+            <p>"Eco-friendly packaging is a huge plus! Love this shop."</p>
+            <h6 class="fw-bold mb-0">Maryam Qureshi</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter py-5 text-white text-center" style="background-color: #274895;">
+    <div class="container">
+      <h2 class="mb-3">Subscribe to Our Newsletter</h2>
+      <p class="mb-4 text-white">Get updates on latest products and exclusive offers.</p>
+      <form class="d-flex justify-content-center">
+        <input type="email" class="form-control w-50" placeholder="Enter your email">
+        <button class="btn btn-light ms-2">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              What is your return policy?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              You can return products within 14 days of purchase for a full refund.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              Do you offer international shipping?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, we ship worldwide. Shipping charges may apply.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="custom-footer text-white pt-5 pb-3 mt-5">
     <div class="container">
       <div class="row">
+
+        <!-- About -->
         <div class="col-md-4 mb-3">
           <h5>About DevShop</h5>
           <p>DevShop brings you the best quality gadgets with eco-friendly experience. Shop smart, live better!</p>
         </div>
+
+        <!-- Quick Links -->
         <div class="col-md-4 mb-3">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
@@ -114,19 +227,23 @@
             <li><a href="cart.html" class="text-white text-decoration-none">Cart</a></li>
           </ul>
         </div>
+
+        <!-- Social Media -->
         <div class="col-md-4 mb-3">
           <h5>Follow Us</h5>
           <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
           <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
           <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i> Instagram</a>
         </div>
+
       </div>
+
       <hr class="bg-white">
       <p class="text-center mb-0">© 2026 DevShop. All Rights Reserved.</p>
     </div>
   </footer>
-
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
